@@ -1,0 +1,7 @@
+[1/4] cd /home/shakir-salam/Documents/proj/hello_world/build/esp-idf/esptool_py && /home/shakir-salam/.espressif/python_env/idf5.4_py3.12_env/bin/python /home/shakir-salam/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/shakir-salam/Documents/proj/hello_world/build/partition_table/partition-table.bin /home/shakir-salam/Documents/proj/hello_world/build/hello_world.bin
+hello_world.bin binary size 0x2bd00 bytes. Smallest app partition is 0x100000 bytes. 0xd4300 bytes (83%) free.
+[2/4] Performing build step for 'bootloader'
+[1/1] cd /home/shakir-salam/Documents/proj/hello_world/build/bootloader/esp-idf/esptool_py && /home/shakir-salam/.espressif/python_env/idf5.4_py3.12_env/bin/python /home/shakir-salam/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/shakir-salam/Documents/proj/hello_world/build/bootloader/bootloader.bin
+Bootloader binary size 0x6580 bytes. 0xa80 bytes (9%) free.
+[3/4] No install step for 'bootloader'
+[4/4] Completed 'bootloader'
